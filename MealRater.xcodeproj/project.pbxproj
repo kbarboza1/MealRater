@@ -14,6 +14,7 @@
 		CCC0437E280E22A7005D9E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC0437D280E22A7005D9E2E /* Assets.xcassets */; };
 		CCC04381280E22A7005D9E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC0437F280E22A7005D9E2E /* LaunchScreen.storyboard */; };
 		CCC04389280E2549005D9E2E /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC04388280E2548005D9E2E /* RateViewController.swift */; };
+		CCC0438C280E5484005D9E2E /* MyMealModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC0438A280E5484005D9E2E /* MyMealModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CCC04380280E22A7005D9E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCC04382280E22A7005D9E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC04388280E2548005D9E2E /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		CCC0438B280E5484005D9E2E /* MyMealModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMealModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC04374280E22A7005D9E2E /* AppDelegate.swift */,
+				CCC0438A280E5484005D9E2E /* MyMealModel.xcdatamodeld */,
 				CCC04376280E22A7005D9E2E /* SceneDelegate.swift */,
 				CCC04378280E22A7005D9E2E /* ViewController.swift */,
 				CCC0437A280E22A7005D9E2E /* Main.storyboard */,
@@ -144,6 +147,7 @@
 				CCC04379280E22A7005D9E2E /* ViewController.swift in Sources */,
 				CCC04375280E22A7005D9E2E /* AppDelegate.swift in Sources */,
 				CCC04389280E2549005D9E2E /* RateViewController.swift in Sources */,
+				CCC0438C280E5484005D9E2E /* MyMealModel.xcdatamodeld in Sources */,
 				CCC04377280E22A7005D9E2E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +366,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCC0438A280E5484005D9E2E /* MyMealModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCC0438B280E5484005D9E2E /* MyMealModel.xcdatamodel */,
+			);
+			currentVersion = CCC0438B280E5484005D9E2E /* MyMealModel.xcdatamodel */;
+			path = MyMealModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CCC04369280E22A7005D9E2E /* Project object */;
 }

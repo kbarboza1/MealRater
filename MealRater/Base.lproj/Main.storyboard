@@ -65,9 +65,23 @@
                             <constraint firstItem="5BM-ao-axV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="sUl-tk-U3x"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Enter Meal" id="cXs-6d-7dv"/>
+                    <navigationItem key="navigationItem" title="Enter Meal" id="cXs-6d-7dv">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="jjx-Kp-5wO">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="ok5-gZ-Nfc">
+                                <rect key="frame" x="302" y="5" width="92" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Save"/>
+                            </button>
+                            <connections>
+                                <action selector="saveMeal:" destination="BYZ-38-t0r" id="NoK-en-C0h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="Lable" destination="eCM-Vp-Uea" id="P3J-Kz-SiJ"/>
+                        <outlet property="txtDish" destination="dT9-8f-Bag" id="HIN-Ct-tJ5"/>
+                        <outlet property="txtResturant" destination="3GO-Zr-n0l" id="jlS-0F-75e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
